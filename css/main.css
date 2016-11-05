@@ -17,4 +17,33 @@ body {
 .img-responsive {
   margin: 0 auto;
   border-radius: 30px;
+  transition: all 0.4s;
+}
+
+
+.footer-button {
+  font-size: 25px;
+  display: inline-block;
+  padding: 4px;
+  color: #2d3c49;
+  transition: color 0.5s, transform 0.2s;
+}
+.footer-button:hover {
+  transform: scale(1.2);
+  text-decoration: none;
+}
+.reddit-button:hover {
+  color: #FF5700;
+}
+.linkedin-button:hover {
+  color: #1985bc;
+}
+.facebook-button:hover {
+  color: #3b5998;
+}
+.twitter-button:hover {
+  color: #00aced;
+}
+.youtube-button:hover {
+  color: #bb0000;
 }
